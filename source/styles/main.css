@@ -58,7 +58,7 @@ body {
 .about-me {
     font-weight: bold;
     font-size: 1.5em;
-    color: rgb(174, 47, 63);
+    color: rgb(15, 158, 214);
     margin-top: 15%;
     padding-inline: 0;
 }
@@ -71,8 +71,12 @@ body {
     margin-left: 0.5em;
 }
 
+.about-me>p>a>button {
+    color: rgb(15, 158, 214);
+}
+
 .about-me>p>a>button:hover {
-    background-color: rgb(174, 47, 63);
+    background-color: rgb(15, 158, 214);
 }
 
 
