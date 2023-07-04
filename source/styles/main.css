@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira Sans&display=swap');
 
 html {
     min-height: 100%;
@@ -10,7 +10,7 @@ body {
     left: 0;
     min-height: 100%;
     min-width: 100%;
-    font-family: Roboto, serif;
+    font-family: Fira Sans, serif;
     background: linear-gradient(25deg, rgba(174, 49, 64, 0.747) 0%, #fff 25%);
 }
 
