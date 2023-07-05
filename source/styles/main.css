@@ -44,6 +44,34 @@ body {
     background-color: rgb(239, 215, 220);
 }
 
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.contacts>.dropdown>button {
+    background-color: rgb(239, 215, 220);
+    color: rgba(0, 0, 0, 0.877);
+    border: 0;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.contacts>.dropdown>button:hover {
+    color: rgb(15, 158, 214);
+}
+
+.contacts>.dropdown>.btn-primary:active {
+    background-color: rgba(15, 158, 214, 0);
+}
+
+.contacts>.dropdown>.dropdown-menu {
+    margin-top: 0.5em;
+    border-color: rgb(239, 215, 220);
+    border-width: 2px;
+    font-size: 1.2em;
+}
+
 .social-media {
     height: 100%;
     margin-right: 1em;
@@ -73,12 +101,16 @@ body {
 
 .about-me>p>a>button {
     color: rgb(15, 158, 214);
+    font-size: 0.8em;
 }
 
 .about-me>p>a>button:hover {
     background-color: rgb(15, 158, 214);
 }
 
+.about-me>p>a>.btn-outline-primary:active {
+    background-color: rgb(4, 174, 241);
+}
 
 .zerotwo-image {
     position: absolute;
