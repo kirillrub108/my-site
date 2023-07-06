@@ -44,13 +44,9 @@ body {
     background-color: rgb(239, 215, 220);
 }
 
-.contacts {
-    display: flex;
-    align-items: center;
-}
-
 .contacts>.dropdown>button {
-    background-color: rgb(239, 215, 220);
+    padding-left: 0;
+    background-color: rgba(239, 215, 220, 0);
     color: rgba(0, 0, 0, 0.877);
     border: 0;
     font-weight: 500;
