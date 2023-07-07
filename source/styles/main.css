@@ -14,6 +14,10 @@ body {
     background: linear-gradient(25deg, rgba(174, 49, 64, 0.747) 0%, #fff 25%);
 }
 
+#navbarNav {
+    justify-content: center;
+}
+
 .navbar {
     background: linear-gradient(90deg, #fff 15%, rgb(239, 215, 220) 30%, rgb(239, 215, 220) 40%, rgb(239, 215, 220) 50%, rgb(239, 215, 220) 65%, #fff 75%);
 }
