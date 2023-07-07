@@ -48,6 +48,10 @@ body {
     background-color: rgba(239, 215, 220, 0);
 }
 
+.contacts {
+    padding-top: 0.1em;
+}
+
 .contacts>.dropdown>button {
     padding-left: 0;
     background-color: rgba(239, 215, 220, 0);
@@ -263,6 +267,15 @@ body {
     .about-me {
         margin-top: 5%;
         padding-inline: 1em;
+    }
+
+    .about-me>p>a {
+        margin-left: 0.3em;
+    }
+
+    .about-me>p>a>button {
+        padding: 0.4em;
+        font-size: 0.6em;
     }
     
     .zerotwo-image{
