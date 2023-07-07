@@ -258,16 +258,10 @@ body {
 
     .about-me {
         margin-top: 5%;
+        padding-inline: 1em;
     }
-
-    .zerotwo-image {
-        position: absolute;
-        top: 50%;
-        bottom: 0;
-        right: 0;
-        padding-inline: 0;
-    }
-    .zerotwo-image>.DITFlogo {
+    
+    .zerotwo-image{
         display: none;
     }
 }
