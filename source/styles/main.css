@@ -104,6 +104,7 @@ body {
 }
 
 .about-me>p>a>button {
+    border-color: rgb(15, 158, 214);
     color: rgb(15, 158, 214);
     font-size: 0.8em;
 }
